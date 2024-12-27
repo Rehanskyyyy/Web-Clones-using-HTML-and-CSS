@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Martel Sans", serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+body {
+    background-color: #f7f4ed;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 480px;
+    border-bottom: 1px solid black;
+    padding: 15.5px;
+    background-color: #f7f4ed;
+    position: relative;
+}
+
+.logo img {
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.navitem {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 7px;
+}
+
+.navitem li {
+    cursor: pointer;
+}
+
+.navitem .btn {
+    background-color: black;
+    color: white;
+    padding: 8px 18px 5px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.back{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.slogan{
+    margin: 110px 80px;
+}
+
+.slogan .first{
+    font-size: 130.9px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #242424;
+    line-height: 100px;
+    font-weight: 500;
+}
+
+.slogan .second{
+    /* font-family: "Playfair Display", serif; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120px;
+    color: #242424;
+    line-height: 110px;
+    font-weight: 500;
+    width: 714px;
+}
+
+.slogan .line{
+    margin-top: 50px;
+    font-size: 22px;
+}
+
+.slogan .btn{
+    background-color: #1d1d1d;
+    color: white;
+    padding: 8px 40px 5px 40px;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.background img{
+    margin-top: -15px;
+}
+
+.contfoot{
+    position: relative;
+    background-color: #f7f4ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: -67px;
+    border-top: 1px solid black;
+    padding-top: 24px;
+    padding-bottom: 20px;
+}
+
+.contfoot li{
+    list-style: none;
+    color: #6b6b6b;
+    cursor: pointer;
+}
